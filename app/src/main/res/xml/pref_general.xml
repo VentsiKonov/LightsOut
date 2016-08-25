@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/default_player_name"
+        android:inputType="textCapWords"
+        android:key="@string/playerNameKey"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name" />
+
+    <EditTextPreference
+        android:numeric="integer"
+        android:defaultValue="@integer/size"
+        android:key="@string/gridSizeKey"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/grid_size_display_name" />
+
+
+</PreferenceScreen>

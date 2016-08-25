@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LightsOut</string>
+    <string name="new_game">New Game</string>
+    <string name="hit_count_lbl">"Hit count: "</string>
+    <string name="win_toast">You win!</string>
+    <integer name="size">5</integer>
+    <string name="title_activity_settings">Settings</string>
+    <string name="gridSizeKey">gridSize</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_display_name">Player name</string>
+    <string name="default_player_name">John Smith</string>
+
+    <string name="settings">Settings</string>
+    <string name="grid_size_display_name">Grid size</string>
+    <string name="playerNameKey">playerNameKey</string>
+</resources>
